@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "tinyify": "^3.0.0"
+  },
+  "name": "s07-okanban-front-blue",
+  "description": "On continue de coder les fonctionalités de notre application !",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx watchify -e ./src/app.js -o ./assets/js/bundle.js",
+    "prod": "npx browserify -p tinyify -e ./src/app.js -o ./assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Robin/S07-oKanban-front-BLUE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Robin/S07-oKanban-front-BLUE/issues"
+  },
+  "homepage": "https://github.com/O-clock-Robin/S07-oKanban-front-BLUE#readme"
+}
